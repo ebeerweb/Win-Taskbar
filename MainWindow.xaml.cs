@@ -28,9 +28,16 @@ namespace RegistryToggleApp
             {
                 string scriptDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Scripts");
                 string scriptPath = Path.Combine(scriptDirectory, scriptName);
+                
+                if (!File.Exists(scriptPath))
+                {
+                    MessageBox.Show($"Script '{scriptName}' not found.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
+
                 ProcessStartInfo psi = new ProcessStartInfo();
                 psi.FileName = "powershell";
-                psi.Arguments = $"-ExecutionPolicy Bypass -File \"{scriptName}\"";
+                psi.Arguments = $"-ExecutionPolicy Bypass -File \"{scriptPath}\"";
                 psi.WindowStyle = ProcessWindowStyle.Hidden;
                 Process.Start(psi);
             }
