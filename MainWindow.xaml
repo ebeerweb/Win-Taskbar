@@ -1,0 +1,11 @@
+﻿<Window x:Class="RegistryToggleApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registry Toggle" Height="150" Width="300">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Name="EnableButton" Content="Enable Feature" Click="EnableButton_Click" Margin="5"/>
+            <Button Name="DisableButton" Content="Disable Feature" Click="DisableButton_Click" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
