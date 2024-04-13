@@ -15,17 +15,21 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\WinToggle.csproj",
-      "projectName": "RegistryToggleApp",
+      "projectName": "TaskbarToggleApp",
       "projectPath": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\WinToggle.csproj",
       "packagesPath": "C:\\Users\\Erin_UwU\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\NuGet.Config",
         "C:\\Users\\Erin_UwU\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
       ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
@@ -87,34 +91,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.NETCore.App.Runtime.win-x64 (= 8.0.4)' for 'net8.0-windows7.0'.",
-      "libraryId": "Microsoft.NETCore.App.Runtime.win-x64",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.WindowsDesktop.App.Runtime.win-x64 (= 8.0.4)' for 'net8.0-windows7.0'.",
-      "libraryId": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.AspNetCore.App.Runtime.win-x64 (= 8.0.4)' for 'net8.0-windows7.0'.",
-      "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x64",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

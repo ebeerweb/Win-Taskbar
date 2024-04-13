@@ -1,14 +1,14 @@
-﻿RegistryToggleApp
+﻿TaskbarToggleApp
 
 
 winexe
 C#
 .cs
-C:\Users\Erin_UwU\.dev\Win-Taskbar\obj\Debug\
-RegistryToggleApp
+C:\Users\Erin_UwU\.dev\Win-Taskbar\obj\Release\win-x64\
+TaskbarToggleApp
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
 C:\Users\Erin_UwU\.dev\Win-Taskbar\App.xaml
 11407045341
 

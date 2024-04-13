@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "RegistryToggleApp/1.0.0": {
+      "TaskbarToggleApp/1.0.0": {
         "runtime": {
-          "RegistryToggleApp.dll": {}
+          "TaskbarToggleApp.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "RegistryToggleApp/1.0.0": {
+    "TaskbarToggleApp/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -8,17 +8,21 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\WinToggle.csproj",
-        "projectName": "RegistryToggleApp",
+        "projectName": "TaskbarToggleApp",
         "projectPath": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\WinToggle.csproj",
         "packagesPath": "C:\\Users\\Erin_UwU\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\NuGet.Config",
           "C:\\Users\\Erin_UwU\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",

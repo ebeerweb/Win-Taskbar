@@ -9,8 +9,8 @@
     <CopyOutputSymbolsToOutputDirectory>true</CopyOutputSymbolsToOutputDirectory>
     <CopyOutputDirectory>true</CopyOutputDirectory>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <AssemblyName>RegistryToggleApp</AssemblyName>
-    <RootNamespace>RegistryToggleApp</RootNamespace>
+    <AssemblyName>TaskbarToggleApp</AssemblyName>
+    <RootNamespace>TaskbarToggleApp</RootNamespace>
   </PropertyGroup>
 
 </Project>

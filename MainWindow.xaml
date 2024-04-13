@@ -1,4 +1,4 @@
-﻿<Window x:Class="RegistryToggleApp.MainWindow"
+﻿<Window x:Class="TaskbarToggleApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Registry Toggle" Height="150" Width="300">
