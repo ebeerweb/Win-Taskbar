@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinToggle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40b4c56bbec4baac5fa6221a24d3fd1cd0558f9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19526c212ae600f9d88b4531cbb8b22996af9878")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinToggle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinToggle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

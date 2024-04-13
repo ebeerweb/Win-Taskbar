@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.IO;
 using System.Windows;
 
 namespace RegistryToggleApp
@@ -25,6 +26,8 @@ namespace RegistryToggleApp
         {
             try
             {
+                string scriptDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Scripts");
+                string scriptPath = Path.Combine(scriptDirectory, scriptName);
                 ProcessStartInfo psi = new ProcessStartInfo();
                 psi.FileName = "powershell";
                 psi.Arguments = $"-ExecutionPolicy Bypass -File \"{scriptName}\"";

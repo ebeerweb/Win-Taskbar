@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\WinToggle\\WinToggle.csproj",
+      "projectUniqueName": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\WinToggle.csproj",
       "projectName": "WinToggle",
-      "projectPath": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\WinToggle\\WinToggle.csproj",
+      "projectPath": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\WinToggle.csproj",
       "packagesPath": "C:\\Users\\Erin_UwU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\WinToggle\\obj\\",
+      "outputPath": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Erin_UwU\\AppData\\Roaming\\NuGet\\NuGet.Config"

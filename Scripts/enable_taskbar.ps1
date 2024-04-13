@@ -5,4 +5,6 @@
     $v[8] = 0x7a
     Set-ItemProperty -Path $p -Name Settings -Value $v
     Stop-Process -Force -ProcessName explorer
+    echo Enabled
+    Start-Sleep -Seconds 1.5
 }

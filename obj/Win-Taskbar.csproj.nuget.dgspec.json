@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\WinToggle.csproj": {}
+    "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\Win-Taskbar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\WinToggle.csproj": {
+    "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\Win-Taskbar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\WinToggle.csproj",
-        "projectName": "WinToggle",
-        "projectPath": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\WinToggle.csproj",
+        "projectUniqueName": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\Win-Taskbar.csproj",
+        "projectName": "Win-Taskbar",
+        "projectPath": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\Win-Taskbar.csproj",
         "packagesPath": "C:\\Users\\Erin_UwU\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Erin_UwU\\.dev\\Win-Taskbar\\obj\\",
         "projectStyle": "PackageReference",
@@ -17,11 +17,11 @@
           "C:\\Users\\Erin_UwU\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0-windows"
+          "net8.0"
         ],
         "frameworks": {
-          "net8.0-windows7.0": {
-            "targetAlias": "net8.0-windows",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -53,9 +53,6 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
